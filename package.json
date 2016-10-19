@@ -1,0 +1,31 @@
+{
+  "name": "fizz-buzz-app",
+  "version": "1.0.0",
+  "description": "Classic Fizz Buzz program",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "build": "npm install",
+    "dev": "npm install --save-dev",
+    "watch": "npm run test -- -w",
+    "start": "node ./lib/fizzbuzz.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgreenwood/fizz-buzz.git"
+  },
+  "author": "@markgreenwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgreenwood/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/markgreenwood/fizz-buzz#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+  }
+}
