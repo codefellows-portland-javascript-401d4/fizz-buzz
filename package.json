@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "fizz-buzz.js",
   "scripts": {
-    "pretest": "eslint",
+    "pretest": "eslint .",
     "test": "mocha -R nyan",
     "test:watch": "npm run test -- -w",
     "lint": "eslint"

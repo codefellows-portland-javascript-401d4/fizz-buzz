@@ -12,9 +12,9 @@ var fizzbuzz = function(n){
         } else {
             results.push(i);
         };
-    };  
+    };
     return results;
-    
+
 };
 //fizzbuzz(5);
 
