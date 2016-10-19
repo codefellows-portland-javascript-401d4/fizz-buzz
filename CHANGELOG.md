@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 
+## [0.1.0] - 2016-10-18
+### Added
+- index.js now contains a working, but untested, fizz-buzz implementation
 
 ## [0.0.2] - 2016-10-18
 ### Added
