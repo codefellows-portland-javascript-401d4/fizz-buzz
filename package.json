@@ -1,0 +1,28 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "fizz-buzz script",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run test:run",
+    "test:run": "mocha -R list",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizutombo/fizz-buzz.git"
+  },
+  "author": "Tom Shultz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizutombo/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/mizutombo/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
+}
