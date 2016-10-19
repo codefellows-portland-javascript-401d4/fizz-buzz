@@ -1,0 +1,27 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "CF Lab",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run test:run",
+    "test:run": "mocha",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andybeers/fizz-buzz.git"
+  },
+  "author": "Andy Beers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andybeers/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/andybeers/fizz-buzz#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
+}
