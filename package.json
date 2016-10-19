@@ -1,0 +1,25 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "code 401 wednesday week1 morning exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R nyan",
+    "lint": "eslint ./",
+    "watch": "mocha -R nyan -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumArchive/fizz-buzz.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuantumArchive/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/QuantumArchive/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1"
+  }
+}
