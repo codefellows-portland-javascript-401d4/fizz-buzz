@@ -1,0 +1,22 @@
+{
+  "name": "fizzer-buzzer",
+  "version": "0.0.1",
+  "description": "A fizz-buzz implementation with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloriaAnholt/fizz-buzz.git"
+  },
+  "keywords": [
+    "fizz-buzz"
+  ],
+  "author": "Gloria Anholt",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/GloriaAnholt/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/GloriaAnholt/fizz-buzz#readme"
+}
