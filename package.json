@@ -1,0 +1,27 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "in-class",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run test:run",
+    "tst:run": "mocha -R nyan",
+    "lint": "eslint",
+    "watch": "npm run test:run -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraldi/fizz-buzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caraldi/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/caraldi/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
