@@ -1,0 +1,27 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "main": "fizz-buzz.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha -R nyan",
+    "test:watch": "npm run test -- -w",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsotech/fizz-buzz.git"
+  },
+  "author": "AlfonsoTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsotech/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/alfonsotech/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "description": "fizzbuzz in node.js"
+}
