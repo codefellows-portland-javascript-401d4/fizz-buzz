@@ -1,7 +1,7 @@
 {
   "name": "fizz-buzz",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "fizz-buzz.js",
   "scripts": {
     "pretest": "eslint",
     "test": "mocha -R nyan",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/alfonsotech/fizz-buzz.git"
   },
-  "author": "",
+  "author": "AlfonsoTech",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alfonsotech/fizz-buzz/issues"
@@ -22,5 +22,5 @@
     "mocha": "^3.1.2",
     "eslint": "^3.8.1"
   },
-  "description": ""
+  "description": "fizzbuzz in node.js"
 }

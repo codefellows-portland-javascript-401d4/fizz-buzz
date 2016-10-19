@@ -14,6 +14,8 @@ var fizzbuzz = function(n){
         };
     };  
     return results;
+    
 };
+//fizzbuzz(5);
 
 module.exports = fizzbuzz;

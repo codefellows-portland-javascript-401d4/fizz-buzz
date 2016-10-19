@@ -1,9 +1,9 @@
 'use strict';
-var assert = require('mocha').assert;
-var fizzbuzz = require('./fizzbuzz');
+var assert = require('chai').assert;
+var fizzbuzz = require('fizz-buzz.js');
 
-describe('fizzbuzz', function() {
+describe('testing fizzbuzz functionality', function() {
     it('prints out fizz, buzz, fizzbuzz, or the number', function(){
-        assert.deepEqual(fizzbuzz(15), ['fizz', 'buzz']);
+        assert.deepEqual(fizzbuzz(5), [1, 2, "Fizz", 4, "Buzz"]);
     });
 });
