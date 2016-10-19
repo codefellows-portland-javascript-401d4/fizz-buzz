@@ -4,7 +4,11 @@
   "description": "fizz-buzz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "npm run lint",
+    "test": "npm run test:run",
+    "test:run": "mocha",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/DrewStock/fizz-buzz/issues"
   },
-  "homepage": "https://github.com/DrewStock/fizz-buzz#readme"
+  "homepage": "https://github.com/DrewStock/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
 }
