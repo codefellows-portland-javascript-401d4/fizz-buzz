@@ -1,0 +1,26 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "\"fizz buzz excercise\"",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "watch": "mocha -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willnickerson/fizz-buzz.git"
+  },
+  "author": "will nickerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willnickerson/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/willnickerson/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
