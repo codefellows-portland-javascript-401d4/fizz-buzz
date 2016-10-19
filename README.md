@@ -1,8 +1,9 @@
 # Mark's Fizz Buzz
 ## How to run
 fizzbuzz.js is a library with a fizzbuzz() function. If you call fizzbuzz(n) with an integer n, it will
-perform the classic "fizz buzz" sequence up to that integer (inclusive). If you run from the command line
-with an integer parameter, it will print the sequence to stdout.
+perform the classic "fizz buzz" sequence up to that integer (inclusive).
+
+To use this module, require lib/fizzbuzz in your program.
 
 ## License
 The MIT License (MIT)
