@@ -1,0 +1,27 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:run",
+    "lint": "eslint .",
+    "test:run": "mocha",
+    "test:watch": "npm run test:run -- -w",
+    "pretest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchasepdx/fizz-buzz.git"
+  },
+  "author": "David Chase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchasepdx/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/dchasepdx/fizz-buzz#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
+}
