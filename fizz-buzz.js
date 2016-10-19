@@ -1,6 +1,6 @@
 function fizzBuzz(n) {
   var results = [];
-  for (var i=1; i<n; i++) {
+  for (var i=1; i<(n+1); i++) {
     if (i % 3 === 0 && i % 5 === 0) {
       results.push('fizzbuzz');
     } else if (i % 3 === 0) {
