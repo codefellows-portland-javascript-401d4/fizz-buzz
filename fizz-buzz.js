@@ -1,12 +1,12 @@
 function fizzBuzz(n) {
   var results = [];
-  for (var i=0; i<n; i++) {
+  for (var i=1; i<n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      results.push(i + ' fizz buzz');
+      results.push('fizzbuzz');
     } else if (i % 3 === 0) {
-      results.push(i + ' fizz');
+      results.push('fizz');
     } else if (i % 5 === 0) {
-      results.push(i + ' buzz');
+      results.push('buzz');
     } else {
       results.push(i);
     }
@@ -14,6 +14,4 @@ function fizzBuzz(n) {
   return results;
 }
 
-var test = fizzBuzz(15);
-
-console.log(test);
+module.exports = fizzBuzz;
