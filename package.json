@@ -20,6 +20,11 @@
   "homepage": "https://github.com/QuantumArchive/fizz-buzz#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^3.8.1"
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   }
 }
