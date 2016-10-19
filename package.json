@@ -1,0 +1,29 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha", 
+    "lint": "eslint */**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhendricks/fizz-buzz.git"
+  },
+  "author": "Erica Hendricks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elhendricks/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/elhendricks/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "eslint": "^3.8.1"
+  },
+  "description": ""
+}
