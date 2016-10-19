@@ -8,6 +8,9 @@ Don't mess it up! Here are a few scripts designdated in the package.json you can
 
 -test
 -lint
--test:watch
+-watch
 
 How to Use:
+Run 'npm run lint' on initial startup to make sure everything is clean
+Run 'npm run test' to make sure all tests are running
+To continue to monitor changes to test, run 'npm run watch'
