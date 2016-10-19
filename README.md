@@ -1,0 +1,1 @@
+This is a fizz-buzz program with a mocha test. Give it an integer and it will produce an array of that integer's length.
