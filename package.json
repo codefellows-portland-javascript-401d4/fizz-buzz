@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/GloriaAnholt/fizz-buzz/issues"
   },
-  "homepage": "https://github.com/GloriaAnholt/fizz-buzz#readme"
+  "homepage": "https://github.com/GloriaAnholt/fizz-buzz#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
 }
