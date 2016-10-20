@@ -1,0 +1,33 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "description": "CLI implementation of the popular college drinking game",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "plain-test": "mocha",
+    "test": "npm run plain-test",
+    "test-watch": "npm run plain-test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txtincorporated/fizz-buzz.git"
+  },
+  "keywords": [
+    "fizz",
+    "buzz"
+  ],
+  "author": "Nathan P. Keene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txtincorporated/fizz-buzz/issues"
+  },
+  "homepage": "https://github.com/txtincorporated/fizz-buzz#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lint": "^1.1.2",
+    "mocha": "^3.1.2",
+    "travis-ci": "^2.1.1"
+  }
+}
